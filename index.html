@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ada & Joe are getting married on October 31, 2026 in Enugu, Nigeria. Join us for our celebration." />
+  <meta name="theme-color" content="#08100c" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ada & Joe — Wedding 2026" />
+  <meta property="og:description" content="Save the date: October 31, 2026 — Enugu, Nigeria." />
+  <meta property="og:type" content="website" />
+
+  <title>Ada & Joe — Wedding 2026</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ MAIN SITE (hidden on wedding day) ============ -->
+  <div id="main-site">
+
+    <!-- ============ NAVBAR ============ -->
+    <header class="site-header">
+      <div class="navbar">
+        <a href="#home" class="nav-logo" aria-label="Ada and Joe home">
+          A <span>&</span> J
+        </a>
+
+        <nav class="nav-links" aria-label="Main navigation">
+          <a href="#details" class="nav-link">Wedding Details</a>
+          <a href="#rsvp" class="nav-link">RSVP</a>
+          <a href="#registry" class="nav-link">Registry</a>
+        </nav>
+
+        <div class="nav-actions">
+          <a href="#rsvp" class="nav-btn-outline">Leave a Message</a>
+          <a href="#rsvp" class="nav-btn-primary">R.S.V.P.</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ============ HERO ============ -->
+      <section class="hero" id="home">
+        <video
+          class="hero-bg hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="auto"
+          poster="media/DSC_2984.jpg.jpeg"
+          aria-hidden="true"
+        >
+          <source src="media/Ada_and_Uba.mp4" type="video/mp4" />         
+        </video>
+
+        <div class="hero-overlay"></div>
+        <div class="hero-vignette"></div>
+
+        <div class="hero-card">
+          <div class="hero-card-inner">
+
+            <h1 class="hero-title glass-text">
+              Ada <span class="amp">&</span> Joe
+            </h1>
+
+            <p class="hero-date glass-chip">
+              Saturday, October 31st, 2026
+              </p>
+
+            <p class="hero-location glass-chip">
+              <span class="material-symbols-outlined">location_on</span>
+              <span>Enugu, Nigeria</span>
+            </p>
+
+          </div>
+        </div>
+
+        <a href="#countdown" class="scroll-indicator" aria-label="Scroll to countdown">
+          <span class="scroll-text">Discover</span>
+          <span class="material-symbols-outlined">expand_more</span>
+        </a>
+      </section>
+
+      <!-- ============ COUNTDOWN ============ -->
+      <section class="countdown-band" id="countdown">
+        <div class="countdown-inner">
+          <span class="section-eyebrow">Counting Down to Our Forever</span>
+          <div class="divider-line"></div>
+
+          <div class="countdown-grid" aria-live="polite" aria-label="Countdown timer">
+            <div class="countdown-tile">
+              <span class="countdown-value" id="timer-days">00</span>
+              <span class="countdown-label">Days</span>
+            </div>
+            <div class="countdown-tile">
+              <span class="countdown-value" id="timer-hours">00</span>
+              <span class="countdown-label">Hours</span>
+            </div>
+            <div class="countdown-tile">
+              <span class="countdown-value" id="timer-mins">00</span>
+              <span class="countdown-label">Minutes</span>
+            </div>
+            <div class="countdown-tile countdown-tile-accent">
+              <span class="countdown-value" id="timer-secs">00</span>
+              <span class="countdown-label">Seconds</span>
+            </div>
+          </div>
+
+          <div class="countdown-ctas">
+            <a href="#rsvp" class="btn btn-primary">R.S.V.P. Now</a>
+            <a href="#details" class="btn btn-ghost">Wedding Itinerary</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ WEDDING DETAILS ============ -->
+      <section class="section" id="details">
+        <div class="section-header">
+          <span class="section-eyebrow">Sacred Moments & Celebrations</span>
+          <h2 class="section-title">Wedding Details</h2>
+          <div class="section-rule"></div>
+          <p class="section-subtitle">
+            Three harmonious stages to celebrate our union in the heart of Enugu.
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <!-- Card 1 -->
+          <article class="detail-card">
+            <div class="detail-card-image">
+              <img
+                src="media/church.webp"
+                alt="Church ceremony"
+              />
+              <div class="detail-card-overlay"></div>
+              <span class="detail-tag detail-tag-time">
+                <span class="material-symbols-outlined">schedule</span>
+                11:30 AM
+              </span>
+              <span class="detail-tag detail-tag-part">Part One</span>
+            </div>
+            <div class="detail-card-body">
+              <h3 class="detail-card-title">The Holy Matrimony</h3>
+              <p class="detail-card-text">
+                St. Mulumba's Catholic Church, New Haven. Traditional vows exchanged
+                in a sacred ceremony with choir and strings.
+              </p>
+              <div class="detail-card-footer">
+                <span class="pill pill-emerald">
+                  <span class="material-symbols-outlined">church</span>
+                  Sacred Solemnity
+                </span>
+                <button class="pill pill-burgundy" onclick="saveToCalendar('ceremony')">
+                  Save <span class="material-symbols-outlined">bookmark</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="detail-card">
+            <div class="detail-card-image">
+              <img
+                src="media/camera.webp"
+                alt="Photo shoot"
+              />
+              <div class="detail-card-overlay"></div>
+              <span class="detail-tag detail-tag-time">
+                <span class="material-symbols-outlined">schedule</span>
+                1:00 PM
+              </span>
+              <span class="detail-tag detail-tag-part">Part Two</span>
+            </div>
+            <div class="detail-card-body">
+              <h3 class="detail-card-title">Photo shoots</h3>
+              <p class="detail-card-text">
+                St. Mulumba's Catholic Church, New Haven. 
+                Photo shoots to be taken immediately after the Mass.
+              </p>
+              <div class="detail-card-footer">
+                <span class="pill pill-emerald">
+                  <span class="material-symbols-outlined">church</span>
+                  Church premises
+                </span>
+                <button class="pill pill-burgundy" onclick="saveToCalendar('aperitivo')">
+                  Save <span class="material-symbols-outlined">bookmark</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="detail-card">
+            <div class="detail-card-image">
+              <img
+                src="media/amadeo.webp"
+                alt="Wedding reception"
+              />
+              <div class="detail-card-overlay"></div>
+              <span class="detail-tag detail-tag-time">
+                <span class="material-symbols-outlined">schedule</span>
+                1:30 PM
+              </span>
+              <span class="detail-tag detail-tag-part">Part Three</span>
+            </div>
+            <div class="detail-card-body">
+              <h3 class="detail-card-title">Wedding Reception</h3>
+              <p class="detail-card-text">
+                Amadeo's Event Center by Tunnel.
+                Ogui Road, Enugu.
+              </p>
+              <div class="detail-card-footer">
+                <span class="pill pill-emerald">
+                  <span class="material-symbols-outlined">celebration</span>
+                  Reception
+                </span>
+                <button class="pill pill-burgundy" onclick="saveToCalendar('gala')">
+                  Save <span class="material-symbols-outlined">bookmark</span>
+                </button>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!-- Travel info -->
+        <div class="travel-info">
+          <div class="travel-item">
+            <div class="travel-icon"><span class="material-symbols-outlined">flight_takeoff</span></div>
+            <div>
+              <h4>Holy Matrimony</h4>
+              <p>Traditional vows exchanged in a sacred ceremony with choir and strings.</p>
+            </div>
+          </div>
+          <div class="travel-item">
+            <div class="travel-icon"><span class="material-symbols-outlined">camera</span></div>
+            <div>
+              <h4>Photo shoots</h4>
+              <p>Photo shoots to be taken immediately after the Mass.</p>
+            </div>
+          </div>
+          <div class="travel-item">
+            <div class="travel-icon"><span class="material-symbols-outlined">hotel</span></div>
+            <div>
+              <h4>Wedding Reception</h4>
+              <p><strong>Strictly</strong> on invite.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ RSVP & GUESTBOOK (UNIFIED) ============ -->
+      <section class="section" id="rsvp">
+        <div class="section-header">
+          <span class="section-eyebrow">Kindly Respond</span>
+          <h2 class="section-title">Répondez S'il Vous Plaît</h2>
+          <div class="section-rule"></div>
+          <p class="section-subtitle">
+            Please confirm your attendance and leave a warm message for the couple.
+          </p>
+        </div>
+
+        <div class="rsvp-card">
+          <form id="rsvp-form" class="rsvp-form" action="https://formspree.io/f/xwlpbjdv" method="post" novalidate>
+            <div class="form-group">
+              <label class="form-label">Will you be joining us?</label>
+              <div class="radio-grid">
+                <label class="radio-option">
+                  <input type="radio" name="attendance" value="accept" checked />
+                  <span>Joyfully Accepts</span>
+                </label>
+                <label class="radio-option">
+                  <input type="radio" name="attendance" value="decline" />
+                  <span>Regretfully Declines</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="rsvp-name">Your Full Name *</label>
+                <input id="rsvp-name" type="text" placeholder="e.g. Chinedu Okafor" required />
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="rsvp-relation">Relationship to Couple</label>
+                <input id="rsvp-relation" type="text" placeholder="e.g. Maid of Honor" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <input class="got" type="text" name="_gotcha" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="rsvp-message">Warm Wishes & Advice *</label>
+              <textarea id="rsvp-message" rows="4" placeholder="Write your heartfelt note for the newlyweds..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-block" id="rsvp-btn">
+              <!-- <span class="material-symbols-outlined">check_circle</span> -->
+              Confirm RSVP
+            </button>
+
+            <div class="form-success hidden" id="rsvp-success">
+              <p class="form-success-title">Successful! We have received your RSVP.</p>
+              <p class="form-success-text">We can't wait to celebrate with you. Thank you for your warm wishes!</p>
+            </div>
+          </form>
+        </div>
+
+        <!-- Guestbook Feed -->
+        <!-- <div class="guestbook-feed" id="guestbook-feed">
+          <article class="guestbook-card">
+            <div class="guestbook-quote">
+              <span class="material-symbols-outlined">format_quote</span>
+              <span class="guestbook-date">Oct 12</span>
+            </div>
+            <p class="guestbook-message">"May your love be as enduring as the ancient trees of Enugu and as radiant as the morning sun. So excited to celebrate with you both!"</p>
+            <div>
+              <h5>Eleanor & Charles</h5>
+              <span>Bridal Party</span>
+            </div>
+          </article>
+
+          <article class="guestbook-card">
+            <div class="guestbook-quote">
+              <span class="material-symbols-outlined">format_quote</span>
+              <span class="guestbook-date">Oct 18</span>
+            </div>
+            <p class="guestbook-message">"To our dearest Nnadozie and his gorgeous bride Adachukwu. From late night talks to standing by your side. Counting down the seconds!"</p>
+            <div>
+              <h5>Dr. Sebastian M.</h5>
+              <span>Best Man</span>
+            </div>
+          </article>
+
+          <article class="guestbook-card">
+            <div class="guestbook-quote">
+              <span class="material-symbols-outlined">format_quote</span>
+              <span class="guestbook-date">Nov 02</span>
+            </div>
+            <p class="guestbook-message">"Here's to a lifetime of sunset walks, overflowing jollof bowls, and finding home in each other's smiles."</p>
+            <div>
+              <h5>Aunt Beatrice</h5>
+              <span>Family</span>
+            </div>
+          </article>
+        </div> -->
+      </section>
+
+      <!-- ============ REGISTRY ============ -->
+      <section class="section section-alt" id="registry">
+        <div class="section-header">
+          <span class="section-eyebrow">Wishing Well</span>
+          <h2 class="section-title">Honeymoon & Registry</h2>
+          <div class="section-rule"></div>
+          <p class="section-subtitle">
+            Having you with us is the greatest gift. If you wish to bless us with a token of love,
+            we've established funds toward our dream honeymoon and first home.
+          </p>
+        </div>
+
+        <div class="registry-card">
+          <div>
+            <h4>Contribute Directly Online</h4>
+            <p>Encrypted, discreet transfer via card or bank wire.</p>
+          </div>
+          <div class="registry-actions">
+            <button class="donation-amt-btn" data-amount="100">$100</button>
+            <button class="donation-amt-btn is-active" data-amount="250">$250</button>
+            <button class="donation-amt-btn" data-amount="500">$500</button>
+            <button class="donation-amt-btn" data-amount="1000">$1,000</button>
+            <button class="btn btn-primary btn-sm" id="donate-btn">Contribute Joyfully</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ CONTRIBUTION MODAL ============ -->
+      <div class="modal-overlay hidden" id="contribution-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-card">
+          <button class="modal-close" id="modal-close" aria-label="Close modal">
+            <span class="material-symbols-outlined">close</span>
+          </button>
+
+          <div class="modal-crest">
+            <span class="line"></span>
+            <span class="crest-text">With Gratitude</span>
+            <span class="line"></span>
+          </div>
+
+          <h3 class="modal-title" id="modal-title">Contribute Joyfully</h3>
+          <p class="modal-subtitle">
+            Kindly send your gift to the account below.
+            Thank you for blessing us.
+          </p>
+
+          <div class="modal-rule"></div>
+
+          <div class="modal-details">
+            <div class="modal-row">
+              <span class="modal-label">Account Number</span>
+              <span class="modal-value" id="account-number">8169477590</span>
+              <button class="modal-copy" data-copy="8169477590" aria-label="Copy account number">
+                <span class="material-symbols-outlined">content_copy</span>
+              </button>
+            </div>
+
+            <div class="modal-row">
+              <span class="modal-label">Bank</span>
+              <span class="modal-value" id="account-bank">OPay</span>
+            </div>
+
+            <div class="modal-row">
+              <span class="modal-label">Account Name</span>
+              <span class="modal-value" id="account-name">Ifeorah Stanlley</span>
+            </div>
+          </div>
+
+          <p class="modal-footer-note">#AdaAndJoe2026</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <h2 class="footer-names">Adachukwu <span>&</span> Joseph</h2>
+        <p class="footer-hashtag">#AdaJoe2026</p>
+        <p class="footer-message">
+          Together with their families, invite you to share in the joy and sacred union of their holy matrimony.
+        </p>
+        <p class="footer-location">
+          <span class="material-symbols-outlined">location_on</span>
+          Enugu, Nigeria
+        </p>
+
+        <div class="footer-links">
+          <a href="#details">Details</a>
+          <a href="#rsvp">Quick RSVP</a>
+          <a href="#registry">Registry</a>
+          <a href="#rsvp">Guestbook</a>
+        </div>
+
+        <p class="footer-copyright">© 2026 Adachukwu & Joseph. All rights reserved.</p>
+        <p class="footer-copyright">
+          built by <a href="http://www.stanleyifeorah.great-site.net/" style="color: yellow;">Stanley Ifeorah</a>. 
+          Click <a style="color: yellow;" href="https://wa.me/2347011908416?text=Hello%20Stan,%20I%20saw%20the%20site%20for%20Ada_Joe2026.%20I%20need%20to%20strike%20a%20deal%20with%20you.">here</a> to contact
+        </p>
+      </div>
+    </footer>
+
+  </div><!-- /#main-site -->
+
+  <!-- ============ FULLSCREEN WEDDING DAY SCREEN ============ -->
+  <div class="wedding-day-screen hidden" id="wedding-day-screen">
+    <div class="wedding-day-glow wedding-day-glow-tl"></div>
+    <div class="wedding-day-glow wedding-day-glow-br"></div>
+
+    <div class="wedding-day-content">
+      <div class="wedding-day-crest">
+        <span class="line"></span>
+        <span class="crest-text">Today is the day</span>
+        <span class="line"></span>
+      </div>
+
+      <h1 class="wedding-day-title">
+        Ada <span class="amp">&</span> Joe
+      </h1>
+
+      <p class="wedding-day-subtitle">are getting married today</p>
+
+      <div class="wedding-day-rule"></div>
+
+      <p class="wedding-day-message-text">
+        Congratulations to the beautiful couple.
+        Wishing you a lifetime of love, laughter, and joy.
+        Thank you for letting us share in this sacred moment.
+      </p>
+
+      <p class="wedding-day-hashtag">#AdaAndJoe2026</p>
+
+      <div class="wedding-day-hearts">
+        <span class="material-symbols-outlined">favorite</span>
+        <span class="material-symbols-outlined">favorite</span>
+        <span class="material-symbols-outlined">favorite</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast -->
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- ============ BACKGROUND MUSIC ============ -->
+  <audio id="bg-music" src="media/Ayra_Starr_ft_ZAYN_-_Heaven_Baby.mp3" loop preload="auto" playsinline></audio>
+
+  <button id="music-toggle" class="music-toggle" aria-label="Play background music" aria-pressed="false">
+    <span class="material-symbols-outlined music-icon-off">music_off</span>
+    <span class="material-symbols-outlined music-icon-on">music_note</span>
+  </button>
+
+  <!-- Scripts (order matters: confetti MUST come before script.js) -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+
+</body>
+</html>
